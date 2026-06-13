@@ -47,8 +47,6 @@ print("=" * 55)
 print("\nТипы данных:")
 print(df.dtypes.value_counts())
 
-# Пропуски
-print("\nПропущенные значения:", df.isnull().sum().sum())
 
 # Распределение классов
 print("\nРаспределение классов (class):")
