@@ -95,7 +95,6 @@ plt.savefig('features.png', dpi=150, bbox_inches='tight')
 plt.show()
 
 # График 3: Признак 'odor' самый важный
-# almond=a,anise=l,creosote=c,fishy=y,foul=f,musty=m,none=n,pungent=p,spicy=s
 plt.figure(figsize=(9, 4))
 odor_map = {'n': 'нет', 'a': 'анис', 'l': 'миндаль', 'f': 'вонь',
             'c': 'хлор', 'y': 'рыба', 's': 'острый', 'p': 'перец', 'm': 'мускус'}
